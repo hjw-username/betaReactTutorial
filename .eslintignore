@@ -1,0 +1,14 @@
+# 만약에 ESLint가 .gitignore 파일에 이미 나열해놓은 경로를 무시하도록 설정하고 싶다면 
+# ESLint 커맨드를 실행할 때 --ignore-path 옵션을 붙여주면 됩니다.
+# eslint --ignore-path .gitignore .
+
+**/node_modules/**
+**/dist/**
+**/build/**
+**/.git/**
+**/public/**
+
+
+
+**/templates/**
+**/sample-templates/**
