@@ -1,12 +1,12 @@
 {
-  "name": "defaultbase",
+  "name": "betareacttutorial",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run dev -- --open",
-    "dev": "cross-env NODE_ENV=development webpack",
+    "dev": "cross-env NODE_ENV=development webpack serve",
     "build": "cross-env NODE_ENV=production webpack"
   },
   "author": "",
@@ -16,6 +16,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "css-loader": "^6.7.3",
     "@babel/core": "^7.21.0",
     "@babel/preset-env": "^7.20.2",
     "@babel/preset-react": "^7.18.6",
