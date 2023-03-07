@@ -1,12 +1,10 @@
 import React from "react";
-import QucikStartTir from "./components/quickStartTiR/QucikStartTir";
-import TicTacToe from "./components/ticTacToe/ticTacToe";
+import RL4 from "./components/renderingLists/RL4";
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      {/* <TicTacToe /> */}
-      <QucikStartTir />
+      <RL4 />
     </div>
   );
 };
